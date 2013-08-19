@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nbm>
+    <!--
+    <moduleType>autoload</moduleType>
+    <codeNameBase>br.msf.netbeans.regexworkbench/1</codeNameBase>
+    -->
+    <licenseName>The GNU Lesser General Public License, version 2.1 (LGPL-2.1)</licenseName>
+    <licenseFile>license.txt</licenseFile>
+</nbm>
