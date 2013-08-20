@@ -470,7 +470,7 @@ safest to attach them to the start of each source file to most effectively
 convey the exclusion of warranty; and each file should have at least the
 "copyright" line and a pointer to where the full notice is found.
 
-    A Netbeans plugin that adds a side-panel to test regular-expressions on-the-fly!
+    A Netbeans plugin to update the license headers on java files
     Copyright (C) 2013  sfmarcius
 
     This library is free software; you can redistribute it and/or
