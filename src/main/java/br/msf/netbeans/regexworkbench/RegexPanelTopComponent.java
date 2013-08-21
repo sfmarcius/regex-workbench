@@ -1,5 +1,5 @@
-/**
- * regex-workbench: - Copyright (C) 2012 - Marcius da Silva da Fonseca
+/*
+ * regex-workbench - Copyright (C) 2012 - Marcius da Silva da Fonseca
  *
  * This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General
  * Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option)
@@ -101,7 +101,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         jToolBar1.setRollover(true);
 
         org.openide.awt.Mnemonics.setLocalizedText(canonEqMI, "Pattern.CANON_EQ"); // NOI18N
-        canonEqMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.canonEqMI.toolTipText"));
+        canonEqMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.canonEqMI.toolTipText")); // NOI18N
         canonEqMI.setUI(new StayOpenCheckBoxMenuItemUI());
         canonEqMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +111,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(canonEqMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(caseInsensitiveMI, "Pattern.CASE_INSENSITIVE"); // NOI18N
-        caseInsensitiveMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.caseInsensitiveMI.toolTipText"));
+        caseInsensitiveMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.caseInsensitiveMI.toolTipText")); // NOI18N
         caseInsensitiveMI.setUI(new StayOpenCheckBoxMenuItemUI());
         caseInsensitiveMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,7 +121,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(caseInsensitiveMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(commentsMI, "Pattern.COMMENTS"); // NOI18N
-        commentsMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.commentsMI.toolTipText"));
+        commentsMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.commentsMI.toolTipText")); // NOI18N
         commentsMI.setUI(new StayOpenCheckBoxMenuItemUI());
         commentsMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +131,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(commentsMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(dotAllMI, "Pattern.DOTALL"); // NOI18N
-        dotAllMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.dotAllMI.toolTipText"));
+        dotAllMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.dotAllMI.toolTipText")); // NOI18N
         dotAllMI.setUI(new StayOpenCheckBoxMenuItemUI());
         dotAllMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +141,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(dotAllMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(unixLinesMI, "Pattern.UNIX_LINES"); // NOI18N
-        unixLinesMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.unixLinesMI.toolTipText"));
+        unixLinesMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.unixLinesMI.toolTipText")); // NOI18N
         unixLinesMI.setUI(new StayOpenCheckBoxMenuItemUI());
         unixLinesMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,7 +151,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(unixLinesMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(unicodeCaseMI, "Pattern.UNICODE_CASE"); // NOI18N
-        unicodeCaseMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.unicodeCaseMI.toolTipText"));
+        unicodeCaseMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.unicodeCaseMI.toolTipText")); // NOI18N
         unicodeCaseMI.setUI(new StayOpenCheckBoxMenuItemUI());
         unicodeCaseMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,7 +161,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         flagMenu.add(unicodeCaseMI);
 
         org.openide.awt.Mnemonics.setLocalizedText(multilineMI, "Pattern.MULTILINE"); // NOI18N
-        multilineMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.multilineMI.toolTipText"));
+        multilineMI.setToolTipText(org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.multilineMI.toolTipText")); // NOI18N
         multilineMI.setUI(new StayOpenCheckBoxMenuItemUI());
         multilineMI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,12 +173,12 @@ public final class RegexPanelTopComponent extends TopComponent {
         setMaximumSize(new java.awt.Dimension(320, 1080));
 
         invalidRegex.setForeground(new java.awt.Color(255, 51, 51));
-        org.openide.awt.Mnemonics.setLocalizedText(invalidRegex, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.invalidRegex.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(invalidRegex, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.invalidRegex.text")); // NOI18N
 
         regexField.addKeyListener(new OnTheFlyListener());
         regexField.setFont(new java.awt.Font("Lucida Console", 0, 12)); // NOI18N
 
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.jLabel1.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.jLabel1.text")); // NOI18N
 
         escapedRegex.setEditable(false);
         escapedRegex.setFont(new java.awt.Font("Lucida Console", 0, 12)); // NOI18N
@@ -220,14 +220,14 @@ public final class RegexPanelTopComponent extends TopComponent {
 
         autoUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/auto-refresh.png"))); // NOI18N
         autoUpdateBtn.setSelected(true);
-        org.openide.awt.Mnemonics.setLocalizedText(autoUpdateBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.autoUpdateBtn.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(autoUpdateBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.autoUpdateBtn.text")); // NOI18N
         autoUpdateBtn.setFocusable(false);
         autoUpdateBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         autoUpdateBtn.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar2.add(autoUpdateBtn);
 
         manualUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/refresh.png"))); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(manualUpdateBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.updateBtn.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(manualUpdateBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.updateBtn.text")); // NOI18N
         manualUpdateBtn.setFocusable(false);
         manualUpdateBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         manualUpdateBtn.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -240,7 +240,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         jToolBar2.add(jSeparator1);
 
         clearBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/clear.png"))); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(clearBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.clearBtn.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(clearBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.clearBtn.text")); // NOI18N
         clearBtn.setFocusable(false);
         clearBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         clearBtn.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -255,7 +255,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         buttonGroup1.add(findMode);
         findMode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/find.png"))); // NOI18N
         findMode.setSelected(true);
-        org.openide.awt.Mnemonics.setLocalizedText(findMode, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.findMode.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(findMode, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.findMode.text")); // NOI18N
         findMode.setFocusable(false);
         findMode.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         findMode.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -268,7 +268,7 @@ public final class RegexPanelTopComponent extends TopComponent {
 
         buttonGroup1.add(matchMode);
         matchMode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/match.png"))); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(matchMode, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.matchMode.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(matchMode, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.matchMode.text")); // NOI18N
         matchMode.setFocusable(false);
         matchMode.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         matchMode.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -281,7 +281,7 @@ public final class RegexPanelTopComponent extends TopComponent {
         jToolBar2.add(jSeparator3);
 
         flagsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/msf/netbeans/regexworkbench/flags.png"))); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(flagsBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.flagsBtn.text"));
+        org.openide.awt.Mnemonics.setLocalizedText(flagsBtn, org.openide.util.NbBundle.getMessage(RegexPanelTopComponent.class, "RegexPanelTopComponent.flagsBtn.text")); // NOI18N
         flagsBtn.setFocusable(false);
         flagsBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         flagsBtn.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -298,14 +298,14 @@ public final class RegexPanelTopComponent extends TopComponent {
 
         textPane2.addTextKeyListener(new OnTheFlyListener());
 
-        textPane3.addTextKeyListener(new OnTheFlyListener());
+        textPane2.addTextKeyListener(new OnTheFlyListener());
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jToolBar2, javax.swing.GroupLayout.DEFAULT_SIZE, 288, Short.MAX_VALUE)
+            .addComponent(jToolBar2, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
             .addComponent(textPane0, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
             .addComponent(textPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
             .addComponent(textPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
