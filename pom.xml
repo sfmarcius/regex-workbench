@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>br.msf.pom</groupId>
+        <artifactId>nbm-pom-java6</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../base-pom/nbm-pom-java6</relativePath>
+    </parent>
+
     <groupId>br.msf.netbeans</groupId>
     <artifactId>regex-workbench</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -12,13 +19,6 @@
     <name>regex-workbench</name>
     <description>A Netbeans plugin that adds a side-panel to test regular-expressions on-the-fly!</description>
     <url>http://github.com/sfmarcius/license-updater</url>
-
-    <parent>
-        <groupId>br.msf.netbeans</groupId>
-        <artifactId>nbm-base-pom</artifactId>
-        <version>1.0.0</version>
-        <relativePath>../nbm-base-pom</relativePath>
-    </parent>
 
     <dependencies>
         <dependency>
